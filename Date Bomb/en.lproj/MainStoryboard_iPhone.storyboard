@@ -142,6 +142,10 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" image="heart@2x.png" id="Wet-6a-K4w">
+                                <rect key="frame" x="60" y="48" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="50" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Kdc-5m-lhi">
                                 <rect key="frame" x="90" y="236" width="141" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -160,6 +164,7 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="heartImageView" destination="Wet-6a-K4w" id="flg-PZ-SKZ"/>
                         <outlet property="myRatingLabel" destination="Kdc-5m-lhi" id="csJ-uC-20W"/>
                         <outlet property="theirRatingLabel" destination="dXf-nq-z3D" id="laK-LK-2vo"/>
                         <outlet property="titleLabel" destination="zHl-6h-eiv" id="qNJ-KJ-ufC"/>
@@ -241,6 +246,7 @@
         <class className="MeterViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MeterViewController.h"/>
             <relationships>
+                <relationship kind="outlet" name="heartImageView" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="myRatingLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="theirRatingLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="titleLabel" candidateClass="UILabel"/>

@@ -13,11 +13,13 @@
 {
     DatingService *service;
     NSTimer *pollTimer;
+    BOOL wasShowingHeart;
 }
 
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *myRatingLabel;
 @property (weak, nonatomic) IBOutlet UILabel *theirRatingLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *heartImageView;
 
 @end
 
@@ -25,6 +27,7 @@
 @synthesize titleLabel;
 @synthesize myRatingLabel;
 @synthesize theirRatingLabel;
+@synthesize heartImageView;
 
 - (void)viewDidLoad
 {
@@ -60,6 +63,7 @@
     [self setTitleLabel:nil];
     [self setMyRatingLabel:nil];
     [self setTheirRatingLabel:nil];
+    [self setHeartImageView:nil];
     [super viewDidUnload];
 }
 
@@ -83,6 +87,18 @@
         if (service.theirRating <= 0)
         {
             [self performSegueWithIdentifier:@"bombed" sender:self];
+        }
+        else
+        {
+            BOOL showHeart = service.theirRating >= 100;
+            if (showHeart != wasShowingHeart)
+            {
+                wasShowingHeart = showHeart;
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:0.5];
+                heartImageView.alpha = showHeart ? 1.0 : 0.0;
+                [UIView commitAnimations];
+            }
         }
     }
     else
