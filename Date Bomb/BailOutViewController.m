@@ -30,7 +30,7 @@
     {
         MFMessageComposeViewController *compose = [[MFMessageComposeViewController alloc] init];
         compose.recipients = [NSArray arrayWithObject:@"1-800-BAIL-OUT"];
-        compose.body = @"Help! I'm at 123 Fake Street!";
+        compose.body = @"Help! I'm at 123 Fake Street! Bail a brother out!";
         [self presentModalViewController:compose animated:YES];
     }
     else
