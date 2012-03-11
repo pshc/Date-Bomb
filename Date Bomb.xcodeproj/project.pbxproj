@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5013AD35150BF2B60033B76E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5013AD34150BF2B60033B76E /* UIKit.framework */; };
+		5013AD37150BF2B70033B76E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5013AD36150BF2B60033B76E /* Foundation.framework */; };
+		5013AD39150BF2B70033B76E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5013AD38150BF2B70033B76E /* CoreGraphics.framework */; };
+		5013AD3F150BF2B70033B76E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5013AD3D150BF2B70033B76E /* InfoPlist.strings */; };
+		5013AD41150BF2B70033B76E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5013AD40150BF2B70033B76E /* main.m */; };
+		5013AD45150BF2B70033B76E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5013AD44150BF2B70033B76E /* AppDelegate.m */; };
+		5013AD48150BF2B70033B76E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5013AD46150BF2B70033B76E /* MainStoryboard_iPhone.storyboard */; };
+		5013AD4B150BF2B70033B76E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5013AD49150BF2B70033B76E /* MainStoryboard_iPad.storyboard */; };
+		5013AD4E150BF2B70033B76E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5013AD4D150BF2B70033B76E /* LoginViewController.m */; };
+		5013AD56150BF5B70033B76E /* DatingService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5013AD55150BF5B70033B76E /* DatingService.m */; };
+		5013AD5A150C13370033B76E /* MeterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5013AD58150C13370033B76E /* MeterViewController.m */; };
+		5013AD6B150C1CB00033B76E /* bomb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5013AD67150C1CB00033B76E /* bomb@2x.png */; };
+		5013AD6C150C1CB00033B76E /* down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5013AD68150C1CB00033B76E /* down@2x.png */; };
+		5013AD6D150C1CB00033B76E /* heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5013AD69150C1CB00033B76E /* heart@2x.png */; };
+		5013AD6E150C1CB00033B76E /* up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5013AD6A150C1CB00033B76E /* up@2x.png */; };
+		5013AD70150C1E500033B76E /* back@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5013AD6F150C1E500033B76E /* back@2x.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5013AD30150BF2B60033B76E /* Date Bomb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Date Bomb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5013AD34150BF2B60033B76E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5013AD36150BF2B60033B76E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5013AD38150BF2B70033B76E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5013AD3C150BF2B70033B76E /* Date Bomb-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Date Bomb-Info.plist"; sourceTree = "<group>"; };
+		5013AD3E150BF2B70033B76E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5013AD40150BF2B70033B76E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5013AD42150BF2B70033B76E /* Date Bomb-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Date Bomb-Prefix.pch"; sourceTree = "<group>"; };
+		5013AD43150BF2B70033B76E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5013AD44150BF2B70033B76E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5013AD47150BF2B70033B76E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		5013AD4A150BF2B70033B76E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		5013AD4C150BF2B70033B76E /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		5013AD4D150BF2B70033B76E /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		5013AD54150BF5B70033B76E /* DatingService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatingService.h; sourceTree = "<group>"; };
+		5013AD55150BF5B70033B76E /* DatingService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatingService.m; sourceTree = "<group>"; };
+		5013AD57150C13370033B76E /* MeterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeterViewController.h; sourceTree = "<group>"; };
+		5013AD58150C13370033B76E /* MeterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeterViewController.m; sourceTree = "<group>"; };
+		5013AD67150C1CB00033B76E /* bomb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bomb@2x.png"; sourceTree = "<group>"; };
+		5013AD68150C1CB00033B76E /* down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down@2x.png"; sourceTree = "<group>"; };
+		5013AD69150C1CB00033B76E /* heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart@2x.png"; sourceTree = "<group>"; };
+		5013AD6A150C1CB00033B76E /* up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up@2x.png"; sourceTree = "<group>"; };
+		5013AD6F150C1E500033B76E /* back@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "back@2x.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5013AD2D150BF2B60033B76E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5013AD35150BF2B60033B76E /* UIKit.framework in Frameworks */,
+				5013AD37150BF2B70033B76E /* Foundation.framework in Frameworks */,
+				5013AD39150BF2B70033B76E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5013AD25150BF2B60033B76E = {
+			isa = PBXGroup;
+			children = (
+				5013AD3A150BF2B70033B76E /* Date Bomb */,
+				5013AD5E150C1C200033B76E /* Assets */,
+				5013AD33150BF2B60033B76E /* Frameworks */,
+				5013AD31150BF2B60033B76E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5013AD31150BF2B60033B76E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5013AD30150BF2B60033B76E /* Date Bomb.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5013AD33150BF2B60033B76E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5013AD34150BF2B60033B76E /* UIKit.framework */,
+				5013AD36150BF2B60033B76E /* Foundation.framework */,
+				5013AD38150BF2B70033B76E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5013AD3A150BF2B70033B76E /* Date Bomb */ = {
+			isa = PBXGroup;
+			children = (
+				5013AD43150BF2B70033B76E /* AppDelegate.h */,
+				5013AD44150BF2B70033B76E /* AppDelegate.m */,
+				5013AD46150BF2B70033B76E /* MainStoryboard_iPhone.storyboard */,
+				5013AD49150BF2B70033B76E /* MainStoryboard_iPad.storyboard */,
+				5013AD3B150BF2B70033B76E /* Supporting Files */,
+				5013AD4C150BF2B70033B76E /* LoginViewController.h */,
+				5013AD4D150BF2B70033B76E /* LoginViewController.m */,
+				5013AD54150BF5B70033B76E /* DatingService.h */,
+				5013AD55150BF5B70033B76E /* DatingService.m */,
+				5013AD57150C13370033B76E /* MeterViewController.h */,
+				5013AD58150C13370033B76E /* MeterViewController.m */,
+			);
+			path = "Date Bomb";
+			sourceTree = "<group>";
+		};
+		5013AD3B150BF2B70033B76E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5013AD3C150BF2B70033B76E /* Date Bomb-Info.plist */,
+				5013AD3D150BF2B70033B76E /* InfoPlist.strings */,
+				5013AD40150BF2B70033B76E /* main.m */,
+				5013AD42150BF2B70033B76E /* Date Bomb-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5013AD5E150C1C200033B76E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5013AD6F150C1E500033B76E /* back@2x.jpg */,
+				5013AD67150C1CB00033B76E /* bomb@2x.png */,
+				5013AD68150C1CB00033B76E /* down@2x.png */,
+				5013AD69150C1CB00033B76E /* heart@2x.png */,
+				5013AD6A150C1CB00033B76E /* up@2x.png */,
+			);
+			name = Assets;
+			path = "Date Bomb/Assets";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5013AD2F150BF2B60033B76E /* Date Bomb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5013AD51150BF2B70033B76E /* Build configuration list for PBXNativeTarget "Date Bomb" */;
+			buildPhases = (
+				5013AD2C150BF2B60033B76E /* Sources */,
+				5013AD2D150BF2B60033B76E /* Frameworks */,
+				5013AD2E150BF2B60033B76E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Date Bomb";
+			productName = "Date Bomb";
+			productReference = 5013AD30150BF2B60033B76E /* Date Bomb.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5013AD27150BF2B60033B76E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Archipelago;
+			};
+			buildConfigurationList = 5013AD2A150BF2B60033B76E /* Build configuration list for PBXProject "Date Bomb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5013AD25150BF2B60033B76E;
+			productRefGroup = 5013AD31150BF2B60033B76E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5013AD2F150BF2B60033B76E /* Date Bomb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5013AD2E150BF2B60033B76E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5013AD3F150BF2B70033B76E /* InfoPlist.strings in Resources */,
+				5013AD48150BF2B70033B76E /* MainStoryboard_iPhone.storyboard in Resources */,
+				5013AD4B150BF2B70033B76E /* MainStoryboard_iPad.storyboard in Resources */,
+				5013AD6B150C1CB00033B76E /* bomb@2x.png in Resources */,
+				5013AD6C150C1CB00033B76E /* down@2x.png in Resources */,
+				5013AD6D150C1CB00033B76E /* heart@2x.png in Resources */,
+				5013AD6E150C1CB00033B76E /* up@2x.png in Resources */,
+				5013AD70150C1E500033B76E /* back@2x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5013AD2C150BF2B60033B76E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5013AD41150BF2B70033B76E /* main.m in Sources */,
+				5013AD45150BF2B70033B76E /* AppDelegate.m in Sources */,
+				5013AD4E150BF2B70033B76E /* LoginViewController.m in Sources */,
+				5013AD56150BF5B70033B76E /* DatingService.m in Sources */,
+				5013AD5A150C13370033B76E /* MeterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5013AD3D150BF2B70033B76E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5013AD3E150BF2B70033B76E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5013AD46150BF2B70033B76E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5013AD47150BF2B70033B76E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5013AD49150BF2B70033B76E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5013AD4A150BF2B70033B76E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5013AD4F150BF2B70033B76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5013AD50150BF2B70033B76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5013AD52150BF2B70033B76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Date Bomb/Date Bomb-Prefix.pch";
+				INFOPLIST_FILE = "Date Bomb/Date Bomb-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5013AD53150BF2B70033B76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Date Bomb/Date Bomb-Prefix.pch";
+				INFOPLIST_FILE = "Date Bomb/Date Bomb-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5013AD2A150BF2B60033B76E /* Build configuration list for PBXProject "Date Bomb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5013AD4F150BF2B70033B76E /* Debug */,
+				5013AD50150BF2B70033B76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5013AD51150BF2B70033B76E /* Build configuration list for PBXNativeTarget "Date Bomb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5013AD52150BF2B70033B76E /* Debug */,
+				5013AD53150BF2B70033B76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5013AD27150BF2B60033B76E /* Project object */;
+}
