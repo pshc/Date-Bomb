@@ -26,6 +26,9 @@
 		5013AD73150C2AE20033B76E /* BailOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5013AD72150C2AE20033B76E /* BailOutViewController.m */; };
 		5013AD77150C303E0033B76E /* redbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5013AD76150C303E0033B76E /* redbutton@2x.png */; };
 		5013AD79150C30D70033B76E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5013AD78150C30D70033B76E /* MessageUI.framework */; };
+		5013AD7C150C39560033B76E /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5013AD7B150C39560033B76E /* IntroViewController.m */; };
+		5013AD84150C3B0E0033B76E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5013AD83150C3B0E0033B76E /* logo.png */; };
+		5013AD85150C3B1F0033B76E /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5013AD7F150C3A750033B76E /* logo@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +59,10 @@
 		5013AD72150C2AE20033B76E /* BailOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BailOutViewController.m; sourceTree = "<group>"; };
 		5013AD76150C303E0033B76E /* redbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redbutton@2x.png"; sourceTree = "<group>"; };
 		5013AD78150C30D70033B76E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		5013AD7A150C39560033B76E /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		5013AD7B150C39560033B76E /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
+		5013AD7F150C3A750033B76E /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		5013AD83150C3B0E0033B76E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +83,8 @@
 		5013AD25150BF2B60033B76E = {
 			isa = PBXGroup;
 			children = (
+				5013AD83150C3B0E0033B76E /* logo.png */,
+				5013AD7F150C3A750033B76E /* logo@2x.png */,
 				5013AD3A150BF2B70033B76E /* Date Bomb */,
 				5013AD5E150C1C200033B76E /* Assets */,
 				5013AD33150BF2B60033B76E /* Frameworks */,
@@ -118,6 +127,8 @@
 				5013AD58150C13370033B76E /* MeterViewController.m */,
 				5013AD71150C2AE20033B76E /* BailOutViewController.h */,
 				5013AD72150C2AE20033B76E /* BailOutViewController.m */,
+				5013AD7A150C39560033B76E /* IntroViewController.h */,
+				5013AD7B150C39560033B76E /* IntroViewController.m */,
 			);
 			path = "Date Bomb";
 			sourceTree = "<group>";
@@ -207,6 +218,8 @@
 				5013AD6E150C1CB00033B76E /* up@2x.png in Resources */,
 				5013AD70150C1E500033B76E /* back@2x.jpg in Resources */,
 				5013AD77150C303E0033B76E /* redbutton@2x.png in Resources */,
+				5013AD84150C3B0E0033B76E /* logo.png in Resources */,
+				5013AD85150C3B1F0033B76E /* logo@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +236,7 @@
 				5013AD56150BF5B70033B76E /* DatingService.m in Sources */,
 				5013AD5A150C13370033B76E /* MeterViewController.m in Sources */,
 				5013AD73150C2AE20033B76E /* BailOutViewController.m in Sources */,
+				5013AD7C150C39560033B76E /* IntroViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
