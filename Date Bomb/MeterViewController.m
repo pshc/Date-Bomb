@@ -72,10 +72,18 @@
     else if ([keyPath isEqualToString:@"myRating"])
     {
         self.myRatingLabel.text = [NSString stringWithFormat:@"%d", service.myRating];
+        if (service.myRating <= 0)
+        {
+            [self performSegueWithIdentifier:@"bombed" sender:self];
+        }
     }
     else if ([keyPath isEqualToString:@"theirRating"])
     {
         self.theirRatingLabel.text = [NSString stringWithFormat:@"%d", service.theirRating];
+        if (service.theirRating <= 0)
+        {
+            [self performSegueWithIdentifier:@"bombed" sender:self];
+        }
     }
     else
     {

@@ -23,6 +23,9 @@
 		5013AD6D150C1CB00033B76E /* heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5013AD69150C1CB00033B76E /* heart@2x.png */; };
 		5013AD6E150C1CB00033B76E /* up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5013AD6A150C1CB00033B76E /* up@2x.png */; };
 		5013AD70150C1E500033B76E /* back@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5013AD6F150C1E500033B76E /* back@2x.jpg */; };
+		5013AD73150C2AE20033B76E /* BailOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5013AD72150C2AE20033B76E /* BailOutViewController.m */; };
+		5013AD77150C303E0033B76E /* redbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5013AD76150C303E0033B76E /* redbutton@2x.png */; };
+		5013AD79150C30D70033B76E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5013AD78150C30D70033B76E /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +52,10 @@
 		5013AD69150C1CB00033B76E /* heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart@2x.png"; sourceTree = "<group>"; };
 		5013AD6A150C1CB00033B76E /* up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up@2x.png"; sourceTree = "<group>"; };
 		5013AD6F150C1E500033B76E /* back@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "back@2x.jpg"; sourceTree = "<group>"; };
+		5013AD71150C2AE20033B76E /* BailOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BailOutViewController.h; sourceTree = "<group>"; };
+		5013AD72150C2AE20033B76E /* BailOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BailOutViewController.m; sourceTree = "<group>"; };
+		5013AD76150C303E0033B76E /* redbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redbutton@2x.png"; sourceTree = "<group>"; };
+		5013AD78150C30D70033B76E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5013AD79150C30D70033B76E /* MessageUI.framework in Frameworks */,
 				5013AD35150BF2B60033B76E /* UIKit.framework in Frameworks */,
 				5013AD37150BF2B70033B76E /* Foundation.framework in Frameworks */,
 				5013AD39150BF2B70033B76E /* CoreGraphics.framework in Frameworks */,
@@ -86,6 +94,7 @@
 		5013AD33150BF2B60033B76E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5013AD78150C30D70033B76E /* MessageUI.framework */,
 				5013AD34150BF2B60033B76E /* UIKit.framework */,
 				5013AD36150BF2B60033B76E /* Foundation.framework */,
 				5013AD38150BF2B70033B76E /* CoreGraphics.framework */,
@@ -107,6 +116,8 @@
 				5013AD55150BF5B70033B76E /* DatingService.m */,
 				5013AD57150C13370033B76E /* MeterViewController.h */,
 				5013AD58150C13370033B76E /* MeterViewController.m */,
+				5013AD71150C2AE20033B76E /* BailOutViewController.h */,
+				5013AD72150C2AE20033B76E /* BailOutViewController.m */,
 			);
 			path = "Date Bomb";
 			sourceTree = "<group>";
@@ -125,6 +136,7 @@
 		5013AD5E150C1C200033B76E /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				5013AD76150C303E0033B76E /* redbutton@2x.png */,
 				5013AD6F150C1E500033B76E /* back@2x.jpg */,
 				5013AD67150C1CB00033B76E /* bomb@2x.png */,
 				5013AD68150C1CB00033B76E /* down@2x.png */,
@@ -194,6 +206,7 @@
 				5013AD6D150C1CB00033B76E /* heart@2x.png in Resources */,
 				5013AD6E150C1CB00033B76E /* up@2x.png in Resources */,
 				5013AD70150C1E500033B76E /* back@2x.jpg in Resources */,
+				5013AD77150C303E0033B76E /* redbutton@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +222,7 @@
 				5013AD4E150BF2B70033B76E /* LoginViewController.m in Sources */,
 				5013AD56150BF5B70033B76E /* DatingService.m in Sources */,
 				5013AD5A150C13370033B76E /* MeterViewController.m in Sources */,
+				5013AD73150C2AE20033B76E /* BailOutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

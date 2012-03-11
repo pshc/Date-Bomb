@@ -31,6 +31,7 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
+    [super viewWillAppear:animated];
 	[name becomeFirstResponder];
     [service addObserver:self forKeyPath:@"isLoading"];
     [service addObserver:self forKeyPath:@"otherName"];
@@ -38,6 +39,7 @@
 
 - (void)viewDidDisappear:(BOOL)animated
 {
+    [super viewDidDisappear:animated];
     [service removeObserver:self forKeyPath:@"isLoading"];
     [service removeObserver:self forKeyPath:@"otherName"];
 }
